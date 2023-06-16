@@ -12,9 +12,10 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(50deg,  rgba(116, 15, 247, 0.233), #267c9600), url("../images/IMG_4987.JPG");
+    background-image: linear-gradient(50deg,  rgba(20, 204, 75, 0.096), #267c964f), url("../images/IMG_4987.JPG");
     padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
     margin-bottom: 5px;
     margin-left: 1%;
     height: 100px;
@@ -23,15 +24,15 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* adding "text-decoratin:none" removes underline on links */
     text-decoration: none;
-    font-size: 40px;
+    font-size: 50px;
 }
 /*tryin to change header link color*/
 .nickPageHeaderLink:link {
-    color: #240505;
+    color: #000000;
 }
 /*found out I needed to add visited as well*/
 .nickPageHeaderLink:visited {
-    color:#240505;
+    color:#000000;
 }
 
 .vision {
