@@ -17,10 +17,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 5px;
     margin-left: 1%;
-    font-style:oblique;
     height: 100px;
 }
-.nickPageHeaderLink {
+.skatewerksHeaderLink {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* adding "text-decoratin:none" removes underline on links */
     text-decoration: none;
