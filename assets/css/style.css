@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    margin-left:1px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(50deg,  rgba(116, 15, 247, 0.233), #267c9600), url("../images/IMG_4987.JPG");
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    font-style:oblique;
+    height: 100px;
+}
+.nickPageHeaderLink {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* adding "text-decoratin:none" removes underline on links */
+    text-decoration: none;
+    font-size: 40px;
+}
+/*tryin to change header link color*/
+.nickPageHeaderLink:link {
+    color: #240505;
+}
+/*found out I needed to add visited as well*/
+.nickPageHeaderLink:visited {
+    color:#240505;
+}
+
+.vision {
+    color:rgb(4, 37, 37);
+    font-size: 39px;
+    font-style:normal;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: none;
+}
+/* added hovor effects to header bar */
+.vision:hover {
+    color: rgba(23, 39, 182, 0.863);
+}
+
+.portfolioLink {
+    color:rgb(4, 37, 37);
+    font-size: 39px;
+    font-style:normal;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: none;
+}
+.portfolioLink:hover {
+    color: rgba(55, 160, 3, 0.747);
+}
+
+.contactLink {
+    color:rgb(4, 37, 37);
+    font-size: 39px;
+    font-style:normal;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: none;
+}    
+.contactLink:hover {
+    /*nice color*/
+    color: indianred;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size:48px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    flex:auto
+}
+
+.hero {
+    height: 300px;
+    width: 100%;
+    margin-left:1%;
+    margin-bottom: 5px;
+    color: #1a6a9b;
+    background-image: url("../images/IMG-4960.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vision-box {
+    justify-content:end;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    width: 100%;
+    margin-left: 1%;
+    padding: 15px;
+    /* more linear gradients to distiguish Vison box, and because I like gradients :) */
+    background-image: linear-gradient(0deg, rgba(0, 195, 255, 0.158), rgba(0, 102, 255, 0.247));
+}
+.prof-pic {
+    width:300px;
+    height:auto;
+    border-radius: 25px;
+}
+
+.content {
+    margin-top: 7px;
+    /*changed margin-lefts to 1% to get a more consistent look*/
+    margin-left: 1%;
+    background-color: #6380e033;
+}
+
+.refactorText {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    position: absolute;
+    left: 60px;
+}
+.refactor-box {
+    border-width: 5px;
+    margin-left: 50px;
+    background-image: url("../images/horiseon_bigger.png");
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px; 
+}
+.refactor-box:hover {
+    background-image: url("../images/horiseon_bigger.png");
+    width:auto;
+    /*image grows when hovered over*/
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30px;
+}
+.refactorLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.portfolio-box {
+    margin-left: 50px;
+    background-color: #6380e033;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.portfolio-box:hover {
+    background-image: url("../images/skate-park-editz-dt-24_small.jpg");
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:2px;
+    margin-left: 30px;
+}
+.portfolioBoxLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.portfolioBoxLink:link {
+    color: #240505;
+}
+.portfolioBoxLink:visited {
+    color: #240505;
+}
+
+.Javascript-box {
+    margin-left: 50px;
+    background-color: #6380e033;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.Javascript-box:hover {
+    background-image: url("../images/JavaScript_code_l_small.png");
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2px;
+    margin-left: 30px;
+}
+.javascriptLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+/*more link coloring to keep it the same*/
+.javascriptLink:link {
+    color: #240505;
+}
+.javascriptLink:visited {
+    color: #240505;
+}
+
+.future-box {
+    margin-left: 50px;
+    background-color: #6380e033;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: Left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.future-box:hover {
+    background-image: url("../images/the-moon-near-side_small.jpg");
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left:30px;
+}
+.futureBoxLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.futureBoxLink:link {
+    color: #240505;
+}
+.futureBoxLink:visited {
+    color: #240505;
+}
+
+.contact-me {
+    margin-top:25px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 20px;
+    /*adjusted from min-width to max-width to fix sizing issues*/
+    max-width: 30%;
+    border-style: solid;
+    border-bottom-width: 5px;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #13a2f062;
+}
+.text-contact-input {
+    width: 100%;
+    max-width: 100%;
+}
+
+/*trying to get flex to work*/
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+  
+  .flex-row select {
+    flex: 1 0 0;
+    margin-left: 2%;
+}
+.flex-row input {
+    margin-right: 2%;
+}
+ 
+.message-image {
+    width: 150px;
+    height: auto;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(202, 187, 243, 0.205);
+}
+
+.footer a {
+    font-size: 20px;
+    /* Added additional font-familes for better access */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    text-decoration: none;
+}
+.footer a:link {
+    color: #177aa1;
+}
+.footer a:visited {
+    color: #177aa1;
+}
+
+@media screen and (max-width: 768px) {
+    header, ul {
+      flex-direction: column;
+    }
+    ul {
+        display:flex;
+    }
+    .header {
+        height: 300px;
+    }
+    .contact-me {
+        max-width: 100%;
+    }
+}

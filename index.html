@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>NickPage.com</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Changed title to company name -->
+    <title>NickPage.com</title>
+</head>
+
+<!-- Created a unique header using linear gradient -->
+<body>
+    <header class="header">
+        <nav>
+            <!--camel case use-->
+            <a class="nickPageHeaderLink" href="https://dizzymouse0.github.io/portfolio/">NickPage.com</a>
+        </nav>
+        <nav>
+            <ul>
+                <li>
+                    <!--added specific link classes to have different effects when hovered over-->
+                    <a class="vision"href="#vision">Vision</a>
+                </li>
+                <li>
+                    <a class="portfolioLink" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="contactLink" href="#contactLink">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Added figure element title -->
+    <!-- Added alt attributes for hero, images and icons using concise, accurate descriptions -->
+    <figure class="hero" alt="blue sky with tree branches on top"></figure>
+
+    <main>
+        <!-- Added unique identifier for search-engine-optimization link -->
+        <section id="vision" class="vision-box">
+            <img src="./assets/images/desk_prof_pic_small.jpg" class="prof-pic" alt="smiling profile picture of the author, Nick Page"/>
+            <h3>Vision</h3>
+            <p>
+                Hello, my name is Nick Page. I recentally started my coding journey and am excited to start applying my new skills
+                with a goal to build easy to understand code that meets or excells project demand.
+            </p>
+            <p>Please enjoy my site and check out my past projects. Thank you.</p>
+        </section>
+
+        
+        <!--added an id tag to link to all my projects-->
+        <section id="portfolio" class="content">
+            <nav> <p class="refactorText" >Refactoring a companies code.</p>
+                <a class="refactorLink" href="https://dizzymouse0.github.io/Code-Refactor/">
+                    <section class="refactor-box"> 
+                        <!--added link to previous work, starting with the refactor challenge-->
+                        
+                    </section>
+                </a>
+            </nav>
+
+            <section class="portfolio-box">
+                <!--included link to this project page-->
+                <nav>
+                    <a class="portfolioBoxLink" href="https://dizzymouse0.github.io/portfolio/">Portfolio</a>
+                </nav>
+                <p>A portfilio showing my work.</p>
+            </section>
+
+            <section class="Javascript-box">
+                <!--will add additional links going forward as I fill out my portfolio-->
+                <nav>
+                    <a class="javascriptLink" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a>
+                </nav>
+                <p>Javascript examples.</p>
+            </section>
+
+            <section class="future-box">
+                <nav>
+                    <a class="futureBoxLink" href="https://github.com/dizzymouse0">Personal Projects</a>
+                </nav>
+                <p>My current personal projects.</p>
+            </section>
+
+        </section>    
+    </main>
+    <!-- Assigned aside element title -->
+        <aside id="contactLink" class="contact-me">
+            <article>
+                <h2>Contact</h2>
+                <h4>For all inquiries, please use the form below.</h4>
+                <h3> Thank you.</h3>
+                <!--found this form sample from a class problem. Altered to my specifications-->
+                <form>
+                    <p>    
+                        <label for="username">Name:</label>
+                        <input class="text-contact-input" id="username" type="text" placeholder="First Last" />
+                    </p>
+                    <p>
+                        <input class="text-contact-input" id="email" type="text" placeholder="email" />
+                    </p>
+                    <p>
+                        <label for="comment">Comment:</label>
+                        <textarea class="text-contact-input" id="comment" placeholder="type here"></textarea>
+                      </p>
+                      <p class="flex-row">
+                        <input class="checkbox" id="agreement" type="checkbox" />
+                        <label for="agreement">Click to receive updates from NickPage.com</label>
+                        <button>Submit</button>
+                      </p>    
+                </form>
+                <img src="./assets/images/762256_Contact1-01.jpg" class="message-image" alt="mail, phone, @ symbol, and phone icons" />
+                
+            </article>
+        </aside>
+
+    <!-- Added footer element title and updated date -->
+    <footer class="footer">
+        <!--added link to site home-->
+        <nav>
+            <a href="https://dizzymouse0.github.io/portfolio/">NickPage.com</a>
+        </nav>
+        <p>
+            2023
+        </p>
+    </footer>
+</body>
+
+</html>
