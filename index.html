@@ -40,23 +40,16 @@
             <img src="./assets/images/skate-park-editz-dt-24.jpg" class="prof-pic" alt="smiling profile picture of the author, Nick Page"/>
             <h3>Vision</h3>
             <p>
-                Hello, my name is Nick Page. I recentally started my coding journey and am excited to start applying my new skills
-                with a goal to build easy to understand code that meets or excells project demand.
+                Skatewerks skateshop
             </p>
-            <p>Please enjoy my site and check out my past projects. Thank you.</p>
+            <p></p>
         </section>
 
         
         <!--added an id tag to link to all my projects-->
         <section id="portfolio" class="content">
-            <nav> <p class="refactorText" >Refactoring a companies code.</p>
-                <a class="refactorLink" href="https://dizzymouse0.github.io/Code-Refactor/">
-                    <section class="refactor-box"> 
-                        <!--added link to previous work, starting with the refactor challenge-->
-                        
-                    </section>
-                </a>
-            </nav>
+            <img src="./assets/images/IMG-4231.jpg" href="https://dizzymouse0.github.io/Code-Refactor/" class="refactor-box"/>
+            <p class="refactorText">Catalog</p>
 
             <section class="portfolio-box">
                 <!--included link to this project page-->
@@ -90,13 +83,13 @@
                 <h4>For all inquiries, please use the form below.</h4>
                 <h3> Thank you.</h3>
                 <!--found this form sample from a class problem. Altered to my specifications-->
-                <form>
+                <form id="emailForm">
                     <p>    
                         <label for="username">Name:</label>
                         <input class="text-contact-input" id="username" type="text" placeholder="First Last" />
                     </p>
                     <p>
-                        <input class="text-contact-input" id="email" type="text" placeholder="email" />
+                        <input class="text-contact-input" id="emailInput" type="email" placeholder="email" required/>
                     </p>
                     <p>
                         <label for="comment">Comment:</label>
@@ -104,7 +97,7 @@
                       </p>
                       <p class="flex-row">
                         <input class="checkbox" id="agreement" type="checkbox" />
-                        <label for="agreement">Click to receive updates from NickPage.com</label>
+                        <label for="agreement">Click to receive updates from Skatewerks.com</label>
                         <button>Submit</button>
                       </p>    
                 </form>
@@ -112,6 +105,21 @@
                 
             </article>
         </aside>
+        <div class="container">
+            <h4>Click on the image to view</h4>
+            <h4>Click on the buttons to navigate the carousel</h4>
+            <div class="wrapper">
+              <div class="carouselbox" aria-role="img" aria-label="carousel">
+                <button class="prev">
+                  ◀ Previous
+                </button>
+                <button class="next">
+                  Next ▶ 
+                </button>
+              </div> 
+            </div>
+         </div>
+          <script src="./assets/js/script.js"></script>
 
     <!-- Added footer element title and updated date -->
     <footer class="footer">

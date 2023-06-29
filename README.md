@@ -2,7 +2,7 @@
 
 https://dizzymouse0.github.io/skatewerks/
 
-## Project description: 
+## 
 Shop page for Skatewerks LLC.
 
 ### Skate Shop
