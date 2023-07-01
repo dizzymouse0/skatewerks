@@ -143,30 +143,45 @@ body {
     /* more linear gradients to distiguish Vison box, and because I like gradients :) */
     background-image: linear-gradient(0deg, rgba(0, 195, 255, 0.158), rgba(0, 102, 255, 0.247));
 }
+
 .prof-pic {
-    width:300px;
+    width:383px;
     height:auto;
     border-radius: 25px;
 }
-
-#page2Button {
-    cursor: pointer;
-    
-    font-size: 24px;
-    color: rgb(127, 89, 197);
-    text-decoration: none;
-    background-color: rgba(212, 222, 230, 0.342);
-
+button {
+    transition: transform 1.7s ease-in-out;
 }
-#page2Button:visited {
-    color: rgb(100, 53, 211);
+button:active {
+    box-shadow: 0 2px #107385;
+    transform: translateY(4px);
+}
+
+#galleryButton {
+    font-family:Arial, Helvetica, sans-serif
+    cursor pointer;
+    padding: 3pt;
+    color: rgb(52, 146, 201);
+    font-size: 95px;
+    font-weight:900;
+    text-decoration: none;
+    background-color: rgba(139, 189, 230, 0.233);
+}
+#galleryButton:visited {
+    color: rgb(52, 146, 201);
 }
 #page3 {
+    font-family:Arial, Helvetica, sans-serif
+    cursor pointer;
+    padding: 3pt;
+    color: rgb(52, 146, 201);
+    font-size: 95px;
+    font-weight:900;
+    border: 0px;
+    text-decoration: none;
     background-color: transparent;
-    cursor: pointer;
-    font-size: 24px;
-    color: white;
 }
+
 
 .content {
     margin-top: 7px;
@@ -174,6 +189,7 @@ body {
     margin-left: 1%;
     background-color: #6380e033;
 }
+
 
 .refactorText {
     text-decoration: none;
@@ -213,6 +229,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
+
 .portfolio-box {
     margin-left: 50px;
     background-color: #6380e033;
@@ -233,6 +250,8 @@ body {
     margin-bottom:2px;
     margin-left: 30px;
 }
+
+
 .portfolioBoxLink {
     text-decoration: none;
     font-weight: 800;
@@ -388,4 +407,5 @@ body {
     .contact-me {
         max-width: 100%;
     }
+
 }
