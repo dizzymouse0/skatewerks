@@ -63,21 +63,21 @@ form.addEventListener("submit", function(event) {
   console.log("email recorded", email;
   form.r)
 })
-*/
+// */
 
-function findMaxNumber(numbers) {
-  if (!Array.isArray(numbers)){
-    throw new Error('Input is not an array.');
-  }
-  if (numbers.length === 0) {
-    throw new Error('Array is empty.');
-  }
-  let max = numbers[0];
+// function findMaxNumber(numbers) {
+//   if (!Array.isArray(numbers)){
+//     throw new Error('Input is not an array.');
+//   }
+//   if (numbers.length === 0) {
+//     throw new Error('Array is empty.');
+//   }
+//   let max = numbers[0];
 
-  for (let i = 1; i < numbers.length; i++) {
-    if (numbers[i] > max) {
-      max = numbers[i];
-    }
-  }
-  return max;
-}
+//   for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > max) {
+//       max = numbers[i];
+//     }
+//   }
+//   return max;
+// }

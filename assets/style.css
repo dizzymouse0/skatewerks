@@ -97,7 +97,7 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #1a6a9b;
-    background-image: url("../images/IMG-4960.JPG");
+    background-image: url("./images/skate-park-editz-dt-24.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -139,8 +139,6 @@ body {
     margin-left: 50px;
     width: 300;
     height: auto;
-    
-    
     border-width: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
