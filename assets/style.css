@@ -97,11 +97,45 @@ body {
     width: 100%;
     margin-left:1%;
     margin-bottom: 5px;
-    color: #1a6a9b;
+    color: #ffffff;
     background-image: url("./images/skate-park-editz-dt-24.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    padding-left: 50px;
+
+}
+.hero2 {
+    height: 300px;
+    width: 100%;
+    margin-left:1%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    background-image: url("./images/quarterpipe-park.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: end;
+    padding-right: 20%;
+}
+.hero3 {
+    height: 300px;
+    width: 100%;
+    margin-left:1%;
+    margin-bottom: 5px;
+    color: #ffffff;
+    background-image: url("./images/wide-park.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: end;
+    padding-right: 5%;
 }
 
 .vision-box {
