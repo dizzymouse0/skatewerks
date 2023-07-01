@@ -74,11 +74,6 @@ body {
     color: indianred;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size:48px;
-}
-
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -120,7 +115,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     text-align: end;
-    padding-right: 20%;
+    padding-right: 21%;
 }
 .hero3 {
     height: 300px;
@@ -152,6 +147,25 @@ body {
     width:300px;
     height:auto;
     border-radius: 25px;
+}
+
+#page2Button {
+    cursor: pointer;
+    
+    font-size: 24px;
+    color: rgb(127, 89, 197);
+    text-decoration: none;
+    background-color: rgba(212, 222, 230, 0.342);
+
+}
+#page2Button:visited {
+    color: rgb(100, 53, 211);
+}
+#page3 {
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
 }
 
 .content {
