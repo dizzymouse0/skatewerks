@@ -27,13 +27,8 @@ body {
     text-decoration: none;
     font-size: 50px;
 }
-/*tryin to change header link color*/
-.nickPageHeaderLink:link {
-    color: #000000;
-}
-/*found out I needed to add visited as well*/
-.nickPageHeaderLink:visited {
-    color:#000000;
+.skatewerksHeaderLink:visited {
+    color:#1a0606;
 }
 
 .vision {
