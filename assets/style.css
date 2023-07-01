@@ -299,8 +299,9 @@ body {
 }
  
 .message-image {
-    width: 150px;
+    width: 70px;
     height: auto;
+   
 }
 
 .footer {
