@@ -87,7 +87,7 @@ body {
     width: 100%;
     margin-left:1%;
     margin-bottom: 5px;
-    color: #ffffff;
+    color: #e6be0e;
     background-image: url("./images/skate-park-editz-dt-24.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ body {
     width: 100%;
     margin-left:1%;
     margin-bottom: 5px;
-    color: #ffffff;
+    color: #26c764;
     background-image: url("./images/wide-park.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ button:active {
     background-position: center;
     height: 150px; 
 }
-.refactor-box:hover {
+refactor-box:hover {
     background-image: url("../images/horiseon_bigger.png");
     width:auto;
     /*image grows when hovered over*/
