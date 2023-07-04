@@ -88,7 +88,7 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #e6be0e;
-    background-image: url("./images/skate-park-editz-dt-24.jpg");
+    background-image: url("/assets/images/skate-park-editz-dt-24.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #ffffff;
-    background-image: url("./images/quarterpipe-park.png");
+    background-image: url("/assets/images/quarterpipe-park.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,7 +118,7 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #26c764;
-    background-image: url("./images/wide-park.jpg");
+    background-image: url("/assets/images/wide-park.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +157,7 @@ button:active {
     cursor pointer;
     padding: 3pt;
     color: rgb(52, 146, 201);
-    font-size: 95px;
+    font-size: 45px;
     font-weight:900;
     text-decoration: none;
     background-color: rgba(139, 189, 230, 0.233);
@@ -170,11 +170,10 @@ button:active {
     cursor pointer;
     padding: 3pt;
     color: rgb(52, 146, 201);
-    font-size: 95px;
+    font-size: 45px;
     font-weight:900;
-    border: 0px;
     text-decoration: none;
-    background-color: transparent;
+    background-color: rgba(139, 189, 230, 0.233);
 }
 
 
@@ -197,18 +196,19 @@ button:active {
 .refactor-box {
     border-width: 5px;
     margin-left: 50px;
+    
     width: 300;
     height: auto;
     border-width: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: center;
+  
+  
     height: 150px; 
 }
 refactor-box:hover {
-    background-image: url("../images/horiseon_bigger.png");
+    background-image: url("./images/cat-1920s-8.jpg");
     width:auto;
     /*image grows when hovered over*/
     height: 300px;
@@ -237,16 +237,14 @@ refactor-box:hover {
     text-decoration: none;
 }
 .portfolio-box:hover {
-    background-image: url("../images/skate-park-editz-dt-24_small.jpg");
-    width:auto;
+    background-image: url("../images/JavaScript_code_l_small.png");
+    width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom:2px;
     margin-left: 30px;
 }
-
-
 .portfolioBoxLink {
     text-decoration: none;
     font-weight: 800;
