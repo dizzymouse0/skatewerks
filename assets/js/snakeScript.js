@@ -156,7 +156,7 @@ function move_snake() {
   const has_eaten_food = snake[0].x === food_x && snake[0].y === food_y;
   if (has_eaten_food) {
     // Increase score
-    score += 10;
+    score += 1;
     // Display score on screen
     document.getElementById('score').innerHTML = score;
     // Generate new food location
