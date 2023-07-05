@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(/assets/images/serene-lake.JPG);
+    background-image: url("./assets/images/serene-lake.JPG");
 }
 
 .header {
