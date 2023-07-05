@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
     
   }
   
@@ -25,6 +26,10 @@
     background: #bddcfae7;
     color: #fff;
   }
+  .main-header:visited {
+    color: blue;
+  }
+
 
   .card {
     flex: 1 0 0;
@@ -33,18 +38,17 @@
     border-style: solid;
     border-width: 1px;
   }
-  
   .card header {
     padding: 20px;
     background: #13293d;
     color: #fff;
   }
-  
   .card img {
     width: 100%;
     min-width: 400px;
   }
   
+
   .javascriptImage {
     background-image: url(/assets/images/JavaScript_code_l_small.png);
     background-repeat: no-repeat;
@@ -52,6 +56,25 @@
     height: 390px;
     width: 100%;
   }
+
+  #backButton {
+    font-size: 19pt;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #bddbfa60;
+    border-width: 1;
+    border-radius: 25pt;
+    width: 275px;
+    height: 50pt;
+    
+  }
+  .backButtonA {
+    color: rgb(7, 43, 46);
+  }
+  .backButtonA:visited {
+    color: rgb(7, 43, 46);
+  }
+  
 
 
   footer {
