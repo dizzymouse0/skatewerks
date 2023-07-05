@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-image: url(/assets/images/serene-lake.JPG);
 }
 
 .header {
@@ -150,6 +150,8 @@ button {
 button:active {
     box-shadow: 0 2px #107385;
     transform: translateY(4px);
+    /* transition speed doesnt seem to work*/
+    transition: transform 2.7s ease-in-out;
 }
 
 #galleryButton {

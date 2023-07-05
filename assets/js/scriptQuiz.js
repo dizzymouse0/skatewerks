@@ -67,6 +67,32 @@ var questions = [
       { text: "No", correct: true},
     ]
   },
+  {
+    question: "What is the correct JavaScript syntax to change the content of the following HTML element: <p id='demo'>This is a demonstration.</p>",
+    answers: [
+      { text: "document.getElementById('demo').innerHTML = 'Hello World';", correct: true},
+      { text: "#demo.innerHTML = 'Hello World!';", correct: false},
+      { text: "document.getElementByName('p').innerHTML = 'Hello World!';", correct: false},
+      { text: "document.getElement('p').innerHTML = 'Hello World';", correct: false},
+    ]
+  },
+  {
+    question: "What is the correct syntax for referring to an external script called xxx.js?",
+    answers: [
+      { text: "<script name='xxx.js'>", correct: false},
+      { text: "<script href='xxx.js'>", correct: false},
+      { text: "<script src='xxx.js'>", correct: true},
+    ]
+  },
+  {
+    question: "How do you write 'Hello World' in an alert box?",
+    answers: [
+      { text: "alert('Hello World');", correct: true},
+      { text: "msg('Hello World'); ", correct: false},
+      { text: "msgBox('Hello World');", correct: false},
+      { text: "alertBox('Hello World');", correct: false},
+    ]
+  },
 ]
 
 // variables for the function
