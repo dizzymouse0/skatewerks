@@ -88,7 +88,7 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #e6be0e;
-    background-image: url("/assets/images/skate-park-editz-dt-24.jpg");
+    background-image: url("../images/skate-park-editz-dt-24.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #ffffff;
-    background-image: url("/assets/images/quarterpipe-park.png");
+    background-image: url("../images/the-moon-near-side_small.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,7 +118,7 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #26c764;
-    background-image: url("/assets/images/wide-park.jpg");
+    background-image: url("../images/wide-park.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
