@@ -3,6 +3,7 @@ const board_background = 'tan';
 const snake_col = 'lightblue';
 const snake_border = 'darkblue';
 
+
 let snake = [
   {x: 200, y: 200},
   {x: 190, y: 200},
@@ -165,4 +166,35 @@ function move_snake() {
     // Remove the last part of snake body
     snake.pop();
   }
+
+}
+
+
+
+function saveScore() {
+  var nameEntry = nameEntryInput.value;
+  var highScore = { nameEntry: nameEntry, score: score};
+  highScores.push(highScore);
+
+  //sorts scores in decending order
+  highScores.sort(function(a, b) {
+    return b.score - a.score;
+  });
+
+//store highscores
+  localStorage.setItem("highScores", JSON.stringify(highScores));
+
+  nameElement.classList.add("hide");
+  scoreElement.classList.add("hide");
+  saveButton.classList.add("hide");
+  highScoresList.classList.remove("hide");
+
+  //showing high scores
+  highScoresList.innerHTML = "";
+  highScores.forEach(function(score) {
+   var li = document.createElement("li");
+   li.textContent = score.nameEntry + " - " + score.score;
+    highScoresList.appendChild(li);
+  });
+
 }

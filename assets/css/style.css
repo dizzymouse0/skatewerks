@@ -6,13 +6,13 @@
 }
 
 body {
-    background-image: url("./assets/images/serene-lake.JPG");
+    background-image: url("../images/serene-lake.JPG");
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(50deg, rgba(56, 17, 17, 0)) rgba(54, 117, 52, 0) url("/assets/images/serene-lake.JPG");
+    /*background-image: linear-gradient(50deg, rgba(56, 17, 17, 0)) rgba(54, 117, 52, 0) url("../images/sky-plane.JPG");*/
     padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
