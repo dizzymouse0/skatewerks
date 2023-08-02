@@ -12,11 +12,11 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    /*background-image: linear-gradient(50deg, rgba(56, 17, 17, 0)) rgba(54, 117, 52, 0) url("../images/sky-plane.JPG");*/
+    background-image: linear-gradient(50deg, rgba(56, 17, 17, 0)) rgba(54, 117, 52, 0) url("../images/sky-plane.JPG");
     padding: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
     margin-left: 1%;
     height: 100px;
     border-radius: 19px;
@@ -26,27 +26,28 @@ body {
     /* adding "text-decoratin:none" removes underline on links */
     text-decoration: none;
     font-size: 50px;
+    color:#327b08;
 }
 .skatewerksHeaderLink:visited {
-    color:#1a0606;
+    color:#327b08;
 }
 
-.vision {
+.gamesLink {
     color:rgb(4, 37, 37);
-    font-size: 39px;
+    font-size: 60px;
     font-style:normal;
     font-weight: 600;
     text-decoration: none;
     background-color: none;
 }
 /* added hovor effects to header bar */
-.vision:hover {
-    color: rgba(23, 39, 182, 0.863);
+.gamesLink:hover {
+    color: rgba(108, 123, 255, 0.959);
 }
 
 .portfolioLink {
     color:rgb(4, 37, 37);
-    font-size: 39px;
+    font-size: 60px;
     font-style:normal;
     font-weight: 600;
     text-decoration: none;
@@ -58,7 +59,7 @@ body {
 
 .contactLink {
     color:rgb(4, 37, 37);
-    font-size: 39px;
+    font-size: 60px;
     font-style:normal;
     font-weight: 600;
     text-decoration: none;
