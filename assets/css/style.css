@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding:0;
     margin: 0;
-    margin-left:1px;
+    margin-left:4px;
 }
 
 body {
@@ -14,22 +14,34 @@ body {
     justify-content: space-between;
     background-image: linear-gradient(50deg, rgba(56, 17, 17, 0)) rgba(54, 117, 52, 0) url("../images/sky-plane.JPG");
     padding: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
-    margin-bottom: 35px;
     margin-left: 1%;
-    height: 100px;
+    height: 200px;
     border-radius: 19px;
 }
 .skatewerksHeaderLink {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* adding "text-decoratin:none" removes underline on links */
     text-decoration: none;
-    font-size: 50px;
+    font-size: 100px;
+    font-weight: 1000;
     color:#327b08;
+    
 }
 .skatewerksHeaderLink:visited {
     color:#327b08;
+}
+
+.parkLocator {
+    color:rgb(4, 37, 37);
+    font-size: 60px;
+    font-style:normal;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: none;
+}    
+.parkLocator:hover {
+    /*nice color*/
+    color: indianred;
 }
 
 .gamesLink {
@@ -38,14 +50,14 @@ body {
     font-style:normal;
     font-weight: 600;
     text-decoration: none;
+    -webkit-text-stroke: 1pt #e6be0e41;
     background-color: none;
 }
-/* added hovor effects to header bar */
 .gamesLink:hover {
     color: rgba(108, 123, 255, 0.959);
 }
 
-.portfolioLink {
+.quizzesLink {
     color:rgb(4, 37, 37);
     font-size: 60px;
     font-style:normal;
@@ -53,21 +65,8 @@ body {
     text-decoration: none;
     background-color: none;
 }
-.portfolioLink:hover {
+.quizzesLink:hover {
     color: rgba(55, 160, 3, 0.747);
-}
-
-.contactLink {
-    color:rgb(4, 37, 37);
-    font-size: 60px;
-    font-style:normal;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: none;
-}    
-.contactLink:hover {
-    /*nice color*/
-    color: indianred;
 }
 
 .header nav {
@@ -83,12 +82,28 @@ body {
     flex:auto
 }
 
+.ahero {
+    height: 500px;
+    width: 99%;
+    margin-bottom: 40px;
+    color: #e6be0e;
+    -webkit-text-stroke: 2px black;
+    background-image: url("../images/wide-park.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    
+}
+
 .hero {
     height: 300px;
-    width: 100%;
+    width: 99%;
     margin-left:1%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #e6be0e;
+    -webkit-text-stroke: 2px black;
     background-image: url("../images/skate-park-editz-dt-24.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,9 +117,9 @@ body {
     height: 300px;
     width: 100%;
     margin-left:1%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #ffffff;
-    background-image: url("../images/the-moon-near-side_small.jpg");
+    background-image: url("../images/JavaScript_code_l_small.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -119,7 +134,8 @@ body {
     margin-left:1%;
     margin-bottom: 5px;
     color: #26c764;
-    background-image: url("../images/wide-park.jpg");
+    -webkit-text-stroke: 2px black;
+    background-image: url("../images/the-moon-near-side_small.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
