@@ -95,6 +95,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     border-style:solid ;
+    border-radius: 3pt;
     border-top-width: 2px;
 }
 .ahero:hover {
@@ -103,7 +104,7 @@ body {
 
 .hero {
     height: 300px;
-    width: 99%;
+    width: 98%;
     margin-left:1%;
     margin-bottom: 10px;
     color: #e6be0e;
@@ -116,12 +117,19 @@ body {
     font-size: 100px;
     padding-left: 50px;
     border-style: solid;
+    border-radius: 10pt;
     border-bottom-width: 5px;
-
 }
+.locatorLinkText {
+    text-decoration: none;
+}
+.locatorLinkText:visited {
+    text-decoration: none;
+}
+
 .hero2 {
     height: 300px;
-    width: 100%;
+    width: 98%;
     margin-left:1%;
     margin-bottom: 10px;
     color: #ffffff;
@@ -134,11 +142,19 @@ body {
     text-align: end;
     padding-right: 21%;
     border-style: solid;
+    border-radius: 10pt;
     border-bottom-width: 5px;
 }
+.quizzesLinkText {
+    text-decoration: none;
+}
+.quizzesLinkText:visited {
+    text-decoration: none;
+}
+
 .hero3 {
     height: 300px;
-    width: 100%;
+    width: 98%;
     margin-left:1%;
     margin-bottom: 5px;
     color: #26c764;
@@ -152,7 +168,14 @@ body {
     text-align: end;
     padding-right: 5%;
     border-style: solid;
+    border-radius: 10pt;
     border-bottom-width: 5px;
+}
+.gamesLinkText {
+    text-decoration: none;
+}
+.gamesLinkText:visited {
+    text-decoration: none;
 }
 
 .vision-box {
