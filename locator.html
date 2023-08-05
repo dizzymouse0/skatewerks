@@ -17,6 +17,7 @@
             <h1 id="header" class="app-title">"My Wheels, My City!"</h1>
             <!--img src="./assets/images/quarterpipe-park.png" class="image"-->
             <p style="text-align: center"><strong>Search for a local skate park near you</strong></p>
+            
         </section>
       </li>
       
@@ -27,6 +28,9 @@
     
     <main class="flex-row justify-space-between">
       <div class="col-12 col-md-4">
+        <button id="backButton">
+          <a class="backBtn" href="./index.html">Back</a>
+        </button>
         
         <div class="card">
           <h3 class="card-header text-uppercase">Search By Zip Code:</h3>
@@ -41,12 +45,13 @@
             <h3 id="temp"></h3>
             <div id="location"></div>
           </div>
+          
 <!--just changed or added a couple id tags to get the map script to work-->
   </main>
 
  
    
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbHIyT2Mt-FO1D2JDGE4NAAHUXlDfFIYo&libraries=places&callback=initMap"></script>
+  <!--script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbHIyT2Mt-FO1D2JDGE4NAAHUXlDfFIYo&libraries=places&callback=initMap"></script-->
 
 <script src="./assets/js/locatorScript.js"></script>
 </body>
