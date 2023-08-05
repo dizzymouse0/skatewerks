@@ -123,6 +123,9 @@ body {
     border-radius: 10pt;
     border-bottom-width: 5px;
 }
+.hero:hover {
+    color:rgb(255, 83, 83);
+}
 .locatorLinkText {
     text-decoration: none;
 }
@@ -149,6 +152,9 @@ body {
     border-radius: 10pt;
     border-bottom-width: 5px;
 }
+.hero2:hover {
+    color:rgb(248, 248, 98);
+}
 .quizzesLinkText {
     text-decoration: none;
 }
@@ -174,6 +180,9 @@ body {
     border-style: solid;
     border-radius: 10pt;
     border-bottom-width: 5px;
+}
+.hero3:hover {
+    color:rgb(223, 223, 223);
 }
 .gamesLinkText {
     text-decoration: none;
