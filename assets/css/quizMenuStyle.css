@@ -50,12 +50,12 @@
   
 
   .javascriptImage {
-    background-image: url(/assets/images/JavaScript_code_l_small.png);
+    background-image: url(../images/JavaScript_code_l_small.png);
     height: 390px;
     width: 100%;
   }
   .snakeImage {
-    background-image: url(/assets/images/snake_screenshot.png);
+    background-image: url(../images/snake_screenshot.png);
     height: 390px;
     width: 100%;
     background-position: center;
