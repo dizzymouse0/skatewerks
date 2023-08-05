@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(223, 223, 223, 0.411), rgba(128, 128, 128, 0.525)), url("../images/serene-lake.JPG");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.656)), url("../images/serene-lake.JPG");
 }
 
 .header {
@@ -19,12 +19,12 @@ body {
     border-radius: 19px;
 }
 .skatewerksHeaderLink {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:fantasy;
     /* adding "text-decoratin:none" removes underline on links */
     text-decoration: none;
     font-size: 100px;
-    font-weight: 1000;
     color:#327b08;
+    -webkit-text-stroke: 1px black;
     
 }
 .skatewerksHeaderLink:visited {
@@ -41,7 +41,21 @@ body {
 }    
 .parkLocator:hover {
     /*nice color*/
-    color: indianred;
+    color: #e6be0e;
+    -webkit-text-stroke: 1pt black;
+}
+
+.quizzesLink {
+    color:rgb(4, 37, 37);
+    font-size: 60px;
+    font-style:normal;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: none;
+}
+.quizzesLink:hover {
+    color: rgba(55, 160, 3, 0.747);
+    -webkit-text-stroke: 1pt black;
 }
 
 .gamesLink {
@@ -55,18 +69,7 @@ body {
 }
 .gamesLink:hover {
     color: rgba(108, 123, 255, 0.959);
-}
-
-.quizzesLink {
-    color:rgb(4, 37, 37);
-    font-size: 60px;
-    font-style:normal;
-    font-weight: 600;
-    text-decoration: none;
-    background-color: none;
-}
-.quizzesLink:hover {
-    color: rgba(55, 160, 3, 0.747);
+    -webkit-text-stroke: 1pt black;
 }
 
 .header nav {
@@ -88,7 +91,7 @@ body {
     margin-bottom: 40px;
     color: rgba(0, 0, 0, 0.631);
     -webkit-text-stroke: 2px black;
-    background-image: linear-gradient(50deg, rgba(128, 128, 128, 0.264), rgba(122, 118, 78, 0.891)), url("../images/wide-park.jpg");
+    background-image: linear-gradient(90deg, rgba(169, 232, 249, 0.662), rgba(142, 218, 250, 0.628)), url("../images/wide-park.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -205,19 +208,8 @@ button:active {
     transition: transform 2.7s ease-in-out;
 }
 
-#galleryButton {
-    font-family:Arial, Helvetica, sans-serif
-    cursor pointer;
-    padding: 3pt;
-    color: rgb(52, 146, 201);
-    font-size: 45px;
-    font-weight:900;
-    text-decoration: none;
-    background-color: rgba(139, 189, 230, 0.233);
-}
-#galleryButton:visited {
-    color: rgb(52, 146, 201);
-}
+
+
 #page3 {
     font-family:Arial, Helvetica, sans-serif
     cursor pointer;
@@ -238,44 +230,6 @@ button:active {
 }
 
 
-.refactorText {
-    text-decoration: none;
-    font-weight: 800;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: xx-large;
-    position: absolute;
-    left: 60px;
-}
-.refactor-box {
-    border-width: 5px;
-    margin-left: 50px;
-    
-    width: 300;
-    height: auto;
-    border-width: 1px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-  
-  
-    height: 150px; 
-}
-refactor-box:hover {
-    background-image: url("./images/cat-1920s-8.jpg");
-    width:auto;
-    /*image grows when hovered over*/
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 30px;
-}
-.refactorLink {
-    text-decoration: none;
-    font-weight: 800;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: xx-large;
-    color: rgb(255, 255, 255);
-}
 
 
 .portfolio-box {
@@ -380,41 +334,38 @@ refactor-box:hover {
 }
 
 .contact-me {
+    width: 50%;
+    background-color: #13a3f054;
     margin-top:25px;
     margin-left: 22px;
     margin-right: 20px;
     padding: 20px;
+    background-repeat: no-repeat;
     /*adjusted from min-width to max-width to fix sizing issues*/
-    max-width: 30%;
+    max-width: 50%;
     border-style: solid;
     border-bottom-width: 5px;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #13a2f062;
 }
 .text-contact-input {
     width: 100%;
     max-width: 100%;
 }
 
-/*trying to get flex to work*/
-.flex-row {
-    display: flex;
-    align-items: center;
+.checkbox {
+    cursor: pointer;
 }
-  
-  .flex-row select {
-    flex: 1 0 0;
-    margin-left: 2%;
+.submitBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    cursor:pointer;
+    
 }
-.flex-row input {
-    margin-right: 2%;
-}
- 
+
 .message-image {
     width: 70px;
     height: auto;
-   
 }
 
 .footer {
