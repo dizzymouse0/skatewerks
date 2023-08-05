@@ -6,7 +6,7 @@ function initMap() {
   
   
     var markers = [];
-    var maxMarkers = 7;
+    var maxMarkers = 20;
   
     document.getElementById('searchButton').addEventListener('click', function () {
       var zipCode = document.getElementById('zipcodeInput').value;

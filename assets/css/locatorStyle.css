@@ -7,13 +7,27 @@
   background-color: grey;
 }
 
+.mapPosition {
+
+  margin-top: 50px;
+  margin-left: 20pt;
+  margin-bottom: 50px;
+}
+strong {
+  font-size:30pt;
+}
+
 body {
     background-color:bisque;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.body ul li {
+  display: inline-block;
+}
+
 .image {
-    width: 40%;
+    width: 20%;
     margin-left: 2%;
 }
 
@@ -37,12 +51,6 @@ font-style: oblique;
   box-shadow: 2px 2px var(--dark);
 }
 
-.mapPosition {
-  float: right;
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-}
 
 :root {
     --chicagoBlue: b3ddf2;
