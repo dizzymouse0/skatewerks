@@ -1,5 +1,6 @@
 // variables for html 
 var startButton = document.getElementById("start-button");
+var backButtonElement = document.getElementById("backButton");
 var questionElement = document.getElementById("question");
 var timerElement = document.getElementById("timer")
 var answerButtonsElement = document.getElementById("answer-buttons");
@@ -113,6 +114,7 @@ function startGame() {
   timerElement.textContent = timeLeft;
   // hiding start button
   startButton.classList.add("hide");
+  backButtonElement.classList.add("hide");
   questionElement.classList.remove("hide");
   answerButtonsElement.classList.remove("hide");
   nameEntryInput.classList.add("hide");
@@ -187,6 +189,7 @@ function endGame() {
   nameElement.classList.remove("hide");
   saveButton.classList.remove("hide");
   startButton.classList.remove("hide");
+  backButtonElement.classList.remove("hide");
   nameEntryInput.classList.remove("hide");
   timerElement.classList.add("hide");
  
